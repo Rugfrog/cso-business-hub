@@ -4,6 +4,12 @@
 
 > **Demo only.** All records are fictional. There is no authentication, backend, shared database, email integration, payment system or real scheduling service. Browser edits are saved **only to localStorage on that device**. Never put real customer information into this prototype. The default seeded `.example` email domains and `07700 900xxx` numbers are fictional.
 
+## Live demo
+
+[Open CSO Business Hub](https://cso-business-hub.nuttyscarf8.chatgpt.site)
+
+This is the published demonstration to share with colleagues. Each browser keeps its own fictional demo records. The GitHub Pages workflow is retained for optional future hosting; Pages is not currently enabled for this repository.
+
 ## Screenshots
 
 ![Business Hub dashboard on desktop](assets/preview-desktop.png)
