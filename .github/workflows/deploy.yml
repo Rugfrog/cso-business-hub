@@ -1,25 +1,18 @@
-name: Deploy Business Hub demo
-
+name: Check Business Hub
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
 concurrency:
-  group: github-pages
+  group: checks-${{ github.ref }}
   cancel-in-progress: true
-
 jobs:
-  deploy:
+  check:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -27,14 +20,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Check JavaScript
+        run: |
+          node --check app.js
+          node --check data.js
       - name: Verify seed data
         run: npm test
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: Upload static site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: '.'
-      - name: Deploy website
-        id: deployment
-        uses: actions/deploy-pages@v4

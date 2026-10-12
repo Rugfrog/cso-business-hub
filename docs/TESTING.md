@@ -2,7 +2,7 @@
 
 ## Automated checks
 
-Run `npm test` from the project root. Tests use the built-in Node.js test runner, no `npm install` required. GitHub Pages workflow will also run them before a deployment.
+Run `npm test` from the project root. Tests use the built-in Node.js test runner, no `npm install` required. The Check Business Hub workflow also runs these tests and JavaScript syntax checks on pushes and pull requests. GitHub's built-in Pages publishing workflow runs separately.
 
 ## Manual acceptance walkthrough
 
