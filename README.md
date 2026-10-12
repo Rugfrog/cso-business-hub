@@ -6,11 +6,11 @@
 
 ## Live demo
 
-**[Open CSO Business Hub](https://rugfrog.github.io/cso-business-hub/)**
+**[Open CSO Business Hub](https://raw.githack.com/Rugfrog/cso-business-hub/main/index.html)**
 
-**Publishing pending:** GitHub Pages must be enabled before this link works. No purchased domain is needed. Each browser keeps its own fictional demo records.
+This working preview serves the application from this GitHub repository through raw.githack.com. On your first visit, click **Open the page** on its external-content notice. Each browser keeps its own fictional demo records.
 
-To enable it, open [Pages settings](https://github.com/Rugfrog/cso-business-hub/settings/pages), choose **Deploy from a branch**, select **main** and **/ (root)**, then click **Save**. Leave the custom domain field empty. Check **Actions → pages build and deployment** for successful publication before sharing the address.
+GitHub Pages is an optional hosting route described below; the Live demo link above works without enabling Pages or buying a domain.
 
 ## Screenshots
 
