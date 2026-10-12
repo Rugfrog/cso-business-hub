@@ -4,9 +4,11 @@
 
 > **Demo only.** All records are fictional. There is no authentication, backend, shared database, email integration, payment system or real scheduling service. Browser edits are saved **only to localStorage on that device**. Never put real customer information into this prototype. The default seeded `.example` email domains and `07700 900xxx` numbers are fictional.
 
-## GitHub Pages demo
+## Live demo
 
-The demo address is https://rugfrog.github.io/cso-business-hub/ once GitHub Pages has been enabled and its deployment succeeds. No purchased domain is needed. Each browser keeps its own fictional demo records.
+**[Open CSO Business Hub](https://rugfrog.github.io/cso-business-hub/)**
+
+**Publishing pending:** GitHub Pages must be enabled before this link works. No purchased domain is needed. Each browser keeps its own fictional demo records.
 
 To enable it, open [Pages settings](https://github.com/Rugfrog/cso-business-hub/settings/pages), choose **Deploy from a branch**, select **main** and **/ (root)**, then click **Save**. Leave the custom domain field empty. Check **Actions → pages build and deployment** for successful publication before sharing the address.
 
